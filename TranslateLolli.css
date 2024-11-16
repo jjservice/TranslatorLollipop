@@ -58,7 +58,7 @@ h3 ion-icon{
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 15px;
-  height: 100vh;
+  height: auto;
   max-width: 650px;
   padding: 20px;
   background: rgba(19, 11, 141, 0.144);
