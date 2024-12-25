@@ -38,13 +38,22 @@
       </div>
       <button>Translate!</button>
 
-      <h3>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
-
-      <div class="homebtn"><a href="https://jjservice.github.io/L2/1.html">
-        <ion-icon name="home"></ion-icon></a></div>
 
       </div>
     </div>
+
+    <footer>
+      <div class="homebtn"><a href="javascript:history.back()"><ion-icon name="home"></ion-icon></a></div>
+      <p>&copy;<span id="currentYear"></span>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></p>
+    </footer>
+  
+    <script>
+      // Get the current year
+      const currentYear = new Date().getFullYear();
+      
+      // Find the element with id "currentYear" and set its content to the current year
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
     <script src="TranslateLolli.js"></script>
     <script src="TranslateLolli2.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
